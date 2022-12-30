@@ -19,3 +19,5 @@ DROP INDEX - deletes an index
 
 SELECT column1, column2, ...
 FROM table_name;
+
+SELECT CustomerName,City,Country FROM Customers;
