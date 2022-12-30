@@ -25,3 +25,9 @@ SELECT CustomerName,City,Country FROM Customers;
 SELECT Country FROM Customers;
 
 SELECT DISTINCT Country FROM Customers;
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+select distinct country from customers;
+
+select count(distinct country) from customers;
