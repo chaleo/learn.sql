@@ -31,3 +31,8 @@ SELECT COUNT(DISTINCT Country) FROM Customers;
 select distinct country from customers;
 
 select count(distinct country) from customers;
+
+=====
+
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
