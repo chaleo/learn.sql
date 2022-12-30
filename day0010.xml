@@ -23,3 +23,5 @@ FROM table_name;
 SELECT CustomerName,City,Country FROM Customers;
 
 SELECT Country FROM Customers;
+
+SELECT DISTINCT Country FROM Customers;
